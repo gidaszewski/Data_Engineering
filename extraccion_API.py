@@ -14,5 +14,5 @@ data = requests.get(api_call).json()
 
 time_series = data["data"]
 
-df = pd.DataFrame(time_series, columns=["date", "tipo_de_cambio"])
+df = pd.DataFrame(time_series, columns=["d_date", "tipo_de_cambio"])
 print(df)
