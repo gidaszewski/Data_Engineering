@@ -1,12 +1,5 @@
-CREATE TABLE google(
+CREATE TABLE franco_gidaszewski.tipo_de_cambio (
     id INT NOT NULL,
-    o_open FLOAT,
-    high FLOAT,
-    low FLOAT,
-    c_close FLOAT,
-    volume FLOAT,
-    dividends FLOAT,
-    stock INT,
-    splits FLOAT,
     d_date DATE
+    tipo_de_cambio decimal(10,2)
 ); 
